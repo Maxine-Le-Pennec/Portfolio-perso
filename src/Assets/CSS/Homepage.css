@@ -65,9 +65,11 @@ h1 {
 }
 
 .navbar-container p {
-	font-size: 28px;
+	font-size: 30px;
+	transition: text-shadow 400ms;
 }
 
 .navbar-container p:hover {
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	text-shadow: 4px 3px 2px white;
 }
