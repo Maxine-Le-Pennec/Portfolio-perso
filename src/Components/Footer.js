@@ -7,13 +7,17 @@ const Footer = () => {
 			<p>
 				Made with React by{' '}
 				<a
-					href='https://www.linkedin.com/in/mlepennec/'
+					href='http://tiny.cc/66a1tz'
+					target='_blank'
+					rel='noreferrer'
 					className='footer-link'>
 					Marine Le Pennec
 				</a>{' '}
 				| Background by{' '}
 				<a
-					href='https://unsplash.com/photos/vESk46kcm9g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink'
+					href='https://unsplash.com/@dannyhowe'
+					target='_blank'
+					rel='noreferrer'
 					className='footer-link'>
 					Danny Howe
 				</a>
