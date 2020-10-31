@@ -1,0 +1,13 @@
+.home {
+	top: 2%;
+	right: 3%;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	background-color: transparent;
+	border-style: none;
+}
+
+.home:hover {
+	cursor: pointer;
+}

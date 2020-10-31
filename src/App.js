@@ -11,8 +11,10 @@ import Contact from './Containers/Contact';
 import Skills from './Containers/Skills';
 import Projects from './Containers/Projects';
 
-// Import components
-// import Footer from './Components/Footer';
+// Icones
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFileAlt, faHome } from '@fortawesome/free-solid-svg-icons';
+library.add(faFileAlt, faHome);
 
 function App() {
 	return (
