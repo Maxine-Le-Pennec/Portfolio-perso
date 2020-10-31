@@ -13,8 +13,14 @@ import Projects from './Containers/Projects';
 
 // Icones
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFileAlt, faHome } from '@fortawesome/free-solid-svg-icons';
-library.add(faFileAlt, faHome);
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+	faEnvelope,
+	faFileAlt,
+	faHome,
+	faPhoneSquareAlt,
+} from '@fortawesome/free-solid-svg-icons';
+library.add(faFileAlt, faHome, faPhoneSquareAlt, faEnvelope, faLinkedin);
 
 function App() {
 	return (

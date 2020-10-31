@@ -1,0 +1,92 @@
+.contact-main-wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: #323232;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-circle-section {
+	padding-left: 2%;
+}
+
+.contact-circle {
+	width: 550px;
+	height: 550px;
+	border-radius: 50%;
+	background: #ffb800;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-circle h2 {
+	font-size: 110px;
+	padding: 10%;
+}
+
+.contact-circle div {
+	width: 70%;
+	height: 0px;
+	border: 1px solid #000000;
+}
+
+.contact-circle p {
+	font-size: 49px;
+	padding: 10%;
+}
+
+.contact-icons-section {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.contact-icons-section div a {
+	text-decoration: none;
+	color: white;
+}
+
+.mail-hidden-true {
+	font-size: 2vw;
+	color: #323232;
+}
+
+.mail-hidden-false {
+	font-size: 2vw;
+	color: white;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+.number-hidden-false {
+	padding-top: 1%;
+	font-size: 2vw;
+	color: #ffffff;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+.number-hidden-true {
+	padding-top: 1%;
+	font-size: 2vw;
+	color: #323232;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
