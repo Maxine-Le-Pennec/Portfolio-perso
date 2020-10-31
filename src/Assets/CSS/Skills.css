@@ -1,0 +1,63 @@
+.skills-page-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #323232;
+	padding: 2% 2% 1% 2%;
+}
+
+.skills-logo-top-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skills-logo-top-section img {
+	height: 13%;
+	width: 13%;
+}
+
+.skills-logo-middle-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skills-logo-middle-section img {
+	height: 13%;
+	width: 13%;
+}
+
+.skills-logo-bottom-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.4vw;
+}
+
+.skills-logo-bottom-section img {
+	height: 13%;
+	width: 13%;
+}
+
+.skills-title-circle {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	background: #ffb800;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.skills-title-circle h2 {
+	font-size: 72px;
+	padding: 15%;
+}
+
+.skills-title-circle div {
+	width: 80%;
+	height: 0px;
+
+	border: 1px solid #000000;
+}
