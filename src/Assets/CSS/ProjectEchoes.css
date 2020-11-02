@@ -1,0 +1,157 @@
+.echoes-project-wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: #323232;
+	padding: 1% 0;
+	/* Flex */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-wrapper {
+	width: 100;
+	margin-bottom: 4%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-wrapper h2 {
+	font-size: 72px;
+	margin-bottom: 6%;
+	color: #ffb800;
+}
+
+.header-wrapper div {
+	width: 70%;
+	height: 0px;
+	border: 1px solid #ffb800;
+}
+.intersection-separator {
+	width: 90%;
+	height: 0px;
+	border: 1px solid #ffb800;
+	margin: 2%;
+}
+.echoes-info-wrapper {
+	width: 100%;
+	/* flex */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+
+.echoes-picture-wrapper {
+	width: 60%;
+	/* flex */
+	display: flex;
+	justify-content: center;
+}
+
+.echoes-despription-wrapper {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4% 10%;
+}
+
+.echoes-despription-wrapper p {
+	font-size: 1.5vw;
+	text-align: left;
+	line-height: 30px;
+	color: #ffb800;
+}
+
+.project-echoes-wrapper {
+	width: 100%;
+	padding: 10%;
+	/* flex */
+	display: flex;
+	justify-content: center;
+}
+
+.project-echoes-link-container {
+	width: 50%;
+	height: 70px;
+	background-color: #ffb800;
+	border-radius: 10px;
+	box-shadow: 0 20px 25px -3px rgba(0, 0, 0, 0.1), 0 10px 10px -5px white;
+	box-sizing: border-box;
+	/* flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-echoes-link-container p {
+	font-size: 2vw;
+	color: #000000;
+}
+
+.project-echoes-link {
+	font-size: 2vw;
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.echoes-logos-wrapper {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.echoes-logos-container {
+	display: flex;
+	/* flex: 1; */
+	align-items: center;
+	flex-direction: column;
+}
+
+.echoes-logos-circle {
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	background-color: #ffb800;
+	text-decoration: none;
+	padding: 3%;
+	margin-bottom: 3%;
+	/* flex */
+	display: flex;
+}
+
+.echoes-logos-circle img {
+	width: 100%;
+}
+
+.text-hidden {
+	font-size: 2vw;
+	color: #323232;
+}
+
+.text-show {
+	font-size: 2vw;
+	color: white;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
