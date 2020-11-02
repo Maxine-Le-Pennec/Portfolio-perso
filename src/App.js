@@ -11,6 +11,12 @@ import Contact from './Containers/Contact';
 import Skills from './Containers/Skills';
 import Projects from './Containers/Projects';
 
+// Import project pages
+import Echoes from './Containers/Project-pages/ProjectEchoes';
+import Formnest from './Containers/Project-pages/ProjectFormnest';
+import Marvel from './Containers/Project-pages/ProjectMarvel';
+import Portfolio from './Containers/Project-pages/ProjectPortfolio';
+
 // Icones
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -46,6 +52,18 @@ function App() {
 					</Route>
 					<Route path='/projects'>
 						<Projects />
+					</Route>
+					<Route path='/echoes'>
+						<Echoes />
+					</Route>
+					<Route path='/formnest'>
+						<Formnest />
+					</Route>
+					<Route path='/marvel'>
+						<Marvel />
+					</Route>
+					<Route path='/portfolio'>
+						<Portfolio />
 					</Route>
 					<Route exact path='/'>
 						<Homepage />
