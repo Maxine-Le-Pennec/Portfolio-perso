@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 import HomeButton from '../Components/HomeButton';
 
 // My projects pictures
-import echoes from '../Assets/img/my projects/Echoes.png';
-import formnest from '../Assets/img/my projects/Formnest.png';
-import marvel from '../Assets/img/my projects/Marvel.png';
-import portfolio from '../Assets/img/my projects/Portfolio.png';
+import echoes from '../Assets/img/my_projects/Echoes.png';
+import formnest from '../Assets/img/my_projects/Formnest.png';
+import marvel from '../Assets/img/my_projects/Marvel.png';
+import portfolio from '../Assets/img/my_projects/Portfolio.png';
 const Projects = () => {
 	return (
 		<main className='projects-main-wrapper'>

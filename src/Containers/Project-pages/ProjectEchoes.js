@@ -6,16 +6,16 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 // Carousel pictures
-import log from '../../Assets/img/my projects/Carousel/Capture d’écran 2020-11-02 à 15.15.29.png';
-import contact from '../../Assets/img/my projects/Carousel/Capture d’écran 2020-11-02 à 15.17.16.png';
-import taylormade from '../../Assets/img/my projects/Carousel/Capture d’écran 2020-11-02 à 15.17.34.png';
-import orderpageone from '../../Assets/img/my projects/Carousel/Capture d’écran 2020-11-02 à 15.18.58.png';
-import orderpagetwo from '../../Assets/img/my projects/Carousel/Capture d’écran 2020-11-02 à 15.19.10.png';
+import log from '../../Assets/img/my_projects/carousel_echoes/main.png';
+import contact from '../../Assets/img/my_projects/carousel_echoes/contact.png';
+import taylormade from '../../Assets/img/my_projects/carousel_echoes/taylormade.png';
+import orderpageone from '../../Assets/img/my_projects/carousel_echoes/order1.png';
+import orderpagetwo from '../../Assets/img/my_projects/carousel_echoes/order2.png';
 
 // Logo pictures
-import echoes from '../../Assets/img/logos/Logo echoes paysage fond transparent.png';
+import echoes from '../../Assets/img/logos/echoes_logo.png';
 import koudetat from '../../Assets/img/logos/LOGO_KOUDETAT.png';
-import reacteur from '../../Assets/img/logos/Fichier 4.png';
+import reacteur from '../../Assets/img/logos/react_logo.png';
 // Import component(s)
 import HomeButton from '../../Components/HomeButton';
 
