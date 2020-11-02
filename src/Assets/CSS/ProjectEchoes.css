@@ -1,17 +1,14 @@
 .echoes-project-wrapper {
-	height: 100%;
-	width: 100%;
 	background-color: #323232;
 	padding: 1% 0;
 	/* Flex */
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
 }
 
 .header-wrapper {
-	width: 100;
+	width: 100%;
 	margin-bottom: 4%;
 	/* flex */
 	display: flex;
@@ -69,6 +66,7 @@
 .project-echoes-wrapper {
 	width: 100%;
 	padding: 10%;
+	box-sizing: border-box;
 	/* flex */
 	display: flex;
 	justify-content: center;
@@ -123,6 +121,7 @@
 	background-color: #ffb800;
 	text-decoration: none;
 	padding: 3%;
+	box-sizing: border-box;
 	margin-bottom: 3%;
 	/* flex */
 	display: flex;
