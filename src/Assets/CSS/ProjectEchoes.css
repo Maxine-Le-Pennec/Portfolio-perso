@@ -19,12 +19,12 @@
 
 .header-wrapper h2 {
 	font-size: 72px;
-	margin-bottom: 6%;
-	color: #ffb800;
+	margin-bottom: 1%;
+	color: white;
 }
 
 .header-wrapper div {
-	width: 70%;
+	width: 30%;
 	height: 0px;
 	border: 1px solid #ffb800;
 }
@@ -60,7 +60,8 @@
 	font-size: 1.5vw;
 	text-align: left;
 	line-height: 30px;
-	color: #ffb800;
+	/* color: #ffb800; */
+	color: white;
 }
 
 .project-echoes-wrapper {
