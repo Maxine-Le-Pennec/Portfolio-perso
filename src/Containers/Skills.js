@@ -38,7 +38,7 @@ const Skills = () => {
 				<img src={mongologo} alt='mongo db' />
 				<img src={herokulogo} alt='heroku' />
 				<img src={netlifylogo} alt='netlify' />
-				<FontAwesomeIcon icon={['fab', 'github']} size='10x' color='white' />
+				<FontAwesomeIcon icon={['fab', 'github']} color='white' />
 			</section>
 		</div>
 	);

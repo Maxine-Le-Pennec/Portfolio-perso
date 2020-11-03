@@ -1,6 +1,7 @@
 .echoes-project-wrapper {
 	background-color: #323232;
 	padding: 1% 0;
+
 	/* Flex */
 	display: flex;
 	flex-direction: column;
@@ -18,7 +19,7 @@
 }
 
 .header-wrapper h2 {
-	font-size: 72px;
+	font-size: 4vw;
 	margin-bottom: 1%;
 	color: white;
 }
@@ -26,16 +27,17 @@
 .header-wrapper div {
 	width: 30%;
 	height: 0px;
-	border: 1px solid #ffb800;
+	border: 0.5px solid #ffb800;
 }
 .intersection-separator {
 	width: 90%;
 	height: 0px;
-	border: 1px solid #ffb800;
+	border: 0.5px solid #ffb800;
 	margin: 2%;
 }
 .echoes-info-wrapper {
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
 	/* flex */
 	display: flex;
 	justify-content: space-between;

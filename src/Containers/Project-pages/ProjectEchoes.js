@@ -64,13 +64,11 @@ const ProjectEchoes = () => {
 					<p>
 						As part of my end of study at the Reactor, I realized with four
 						other students and in two weeks, an MVP for the company{' '}
-						<b style={{ fontStyle: 'italic' }}>Echoes</b>. This is a website
-						entirely made in <b style={{ fontWeight: 'bold' }}>React.js</b> for
-						the Front-end and on <b style={{ fontWeight: 'bold' }}>Node.js</b> /{' '}
-						<b style={{ fontWeight: 'bold' }}>Express</b> /
-						<b style={{ fontWeight: 'bold' }}> MongoDB</b> for the Back-end. As
-						for the back office, it was entirely carried out on{' '}
-						<b style={{ fontWeight: 'bold' }}>Forest Admin</b>. <br />
+						<strong>Echoes</strong>. This is a website entirely made in{' '}
+						<strong>React.js</strong> for the Front-end and on{' '}
+						<strong>Node.js</strong> / <strong>Express</strong> /
+						<strong> MongoDB</strong> for the Back-end. As for the back office,
+						it was entirely carried out on <strong>Forest Admin</strong>. <br />
 						<br />
 						The application allows customer / company relationship on the
 						production of tailor-made podcasts. I held the role of Product-owner

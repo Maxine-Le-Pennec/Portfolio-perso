@@ -3,7 +3,6 @@
 	background-image: url('../img/danny-howe-vESk46kcm9g-unsplash.jpg');
 	background-position: center;
 	width: 100%;
-	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -14,7 +13,7 @@
 }
 
 h1 {
-	font-size: 96px;
+	font-size: 4vw;
 	line-height: 127px;
 	color: #ffc700;
 }
@@ -23,8 +22,8 @@ h1 {
 	justify-content: center;
 }
 .presentation-circle-container {
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
@@ -37,7 +36,7 @@ h1 {
 }
 
 .presentation-circle-container p {
-	font-size: 36px;
+	font-size: 2vw;
 	padding-top: 15%;
 	padding-bottom: 15%;
 }
@@ -55,7 +54,7 @@ h1 {
 
 .navbar-container {
 	width: 90%;
-	height: 80px;
+	height: 50px;
 	background: #ffc700;
 	border-radius: 10px;
 	/*  */
@@ -65,7 +64,7 @@ h1 {
 }
 
 .navbar-container p {
-	font-size: 30px;
+	font-size: 1.5vw;
 	transition: text-shadow 400ms;
 }
 

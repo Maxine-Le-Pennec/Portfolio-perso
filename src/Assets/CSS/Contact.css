@@ -1,5 +1,4 @@
 .contact-main-wrapper {
-	height: 100%;
 	width: 100%;
 	background-color: #323232;
 	/* flex */
@@ -13,8 +12,8 @@
 }
 
 .contact-circle {
-	width: 550px;
-	height: 550px;
+	width: 450px;
+	height: 450px;
 	border-radius: 50%;
 	background: #ffb800;
 	display: flex;
@@ -24,18 +23,18 @@
 }
 
 .contact-circle h2 {
-	font-size: 110px;
+	font-size: 3vw;
 	padding: 10%;
 }
 
 .contact-circle div {
-	width: 70%;
+	width: 60%;
 	height: 0px;
 	border: 1px solid #000000;
 }
 
 .contact-circle p {
-	font-size: 49px;
+	font-size: 2.3vw;
 	padding: 10%;
 }
 

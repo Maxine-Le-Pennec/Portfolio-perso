@@ -7,7 +7,7 @@ const HomeButton = () => {
 	let history = useHistory();
 	return (
 		<button type='button' className='home' onClick={() => history.push('/')}>
-			<FontAwesomeIcon icon='home' size='2x' color='white' />
+			<FontAwesomeIcon icon='home' size='3x' color='white' />
 		</button>
 	);
 };

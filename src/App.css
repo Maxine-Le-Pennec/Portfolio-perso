@@ -1,10 +1,16 @@
 .App {
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
-	height: 100vh;
+	min-height: 100vh;
+	display: flex;
+	background-color: #323232;
 }
 
 .Link {
 	text-decoration: none;
 	color: #000000;
+}
+
+li {
+	list-style-type: circle;
 }

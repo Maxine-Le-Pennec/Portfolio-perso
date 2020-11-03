@@ -25,7 +25,7 @@ const Contact = () => {
 				<div
 					onMouseEnter={() => setHoverPhone(true)}
 					onMouseLeave={() => setHoverPhone(false)}>
-					<FontAwesomeIcon icon='phone-square-alt' size='8x' color='white' />
+					<FontAwesomeIcon icon='phone-square-alt' size='7x' color='white' />
 					<p
 						className={
 							inHoverPhone ? 'number-hidden-false' : 'number-hidden-true'
@@ -41,7 +41,7 @@ const Contact = () => {
 						target='_blank'
 						rel='noreferrer'
 						className='envelope-icon'>
-						<FontAwesomeIcon icon='envelope' size='8x' color='white' />
+						<FontAwesomeIcon icon='envelope' size='7x' color='white' />
 					</a>
 					<p className={inHoverMail ? 'mail-hidden-false' : 'mail-hidden-true'}>
 						lepennec.marine@gmail.com
@@ -53,7 +53,7 @@ const Contact = () => {
 					target='_blank'
 					rel='noreferrer'
 					className='linkedin-icon'>
-					<FontAwesomeIcon icon={['fab', 'linkedin']} size='8x' color='white' />
+					<FontAwesomeIcon icon={['fab', 'linkedin']} size='7x' color='white' />
 				</a>
 			</section>
 		</main>
