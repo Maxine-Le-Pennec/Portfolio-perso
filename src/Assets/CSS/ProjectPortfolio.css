@@ -1,7 +1,6 @@
 .portfolio-project-wrapper {
 	width: 100%;
-	padding: 2%;
-	box-sizing: border-box;
+
 	/* flex */
 	display: flex;
 	flex-direction: column;
@@ -11,7 +10,8 @@
 .portfolio-main-wrapper {
 	width: 100%;
 	box-sizing: border-box;
-	padding-top: 7%;
+	padding: 7% 0;
+	box-sizing: border-box;
 	/* flex */
 	display: flex;
 	flex-direction: column;
@@ -48,24 +48,63 @@
 	color: white;
 }
 
-.portfolio-repo-wrapper {
+.portfolio-stacks-wrapper {
 	width: 100%;
-	box-sizing: border-box;
-	padding-top: 2%;
 	/* flex */
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio-stacks-wrapper h2 {
+	color: white;
+	font-size: 3vw;
+	box-sizing: border-box;
+	padding-bottom: 1%;
+}
+.stack-separator {
+	width: 30%;
+	height: 0px;
+	border: 0.5px solid #ffb800;
+}
+.portfolio-stacks-container {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 7%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.portfolio-stack-container {
+	width: 100%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.portfolio-stack-container div {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.portfolio-repo-link {
-	color: white;
-	margin-left: 1vw;
-	font-size: 1.5vw;
-	text-decoration: none;
+.portfolio-stack-container div img {
+	width: 7vw;
+	box-sizing: border-box;
+	padding-bottom: 3%;
 }
 
-.portfolio-repo-link:hover {
-	color: #ffb800;
-	text-decoration: underline;
+.portfolio-repo-wrapper {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 10%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

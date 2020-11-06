@@ -1,7 +1,8 @@
 .formnest-project-wrapper {
 	background-color: #323232;
-	padding: 1% 0;
-
+	padding-top: 1%;
+	box-sizing: border-box;
+	width: 100%;
 	/* Flex */
 	display: flex;
 	flex-direction: column;
@@ -29,14 +30,11 @@
 	height: 0px;
 	border: 0.5px solid #ffb800;
 }
-.intersection-separator {
-	width: 90%;
-	height: 0px;
-	border: 0.5px solid #ffb800;
-	margin: 2%;
-}
+
 .formnest-info-wrapper {
 	width: 100%;
+	padding-bottom: 2%;
+	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 	/* flex */
 	display: flex;
@@ -66,6 +64,56 @@
 	color: white;
 }
 
+.formnest-stacks-wrapper {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formnest-stacks-wrapper h2 {
+	color: white;
+	font-size: 3vw;
+	box-sizing: border-box;
+	padding-bottom: 1%;
+}
+.stack-separator {
+	width: 30%;
+	height: 0px;
+	border: 0.5px solid #ffb800;
+}
+.formnest-stacks-container {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 7%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.formnest-stack-container {
+	width: 100%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.formnest-stack-container div {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.formnest-stack-container div img {
+	width: 7vw;
+	box-sizing: border-box;
+	padding-bottom: 3%;
+}
+
 .project-formnest-wrapper {
 	width: 100%;
 	padding: 10%;
@@ -76,11 +124,11 @@
 }
 
 .project-formnest-link-container {
-	width: 50%;
-	height: 70px;
+	width: 40%;
+	height: 60px;
 	background-color: #ffb800;
 	border-radius: 10px;
-	box-shadow: 0 20px 25px -3px rgba(0, 0, 0, 0.1), 0 10px 10px -5px white;
+	box-shadow: 0 2px 2px -0.5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px black;
 	box-sizing: border-box;
 	/* flex */
 	display: flex;
@@ -89,18 +137,18 @@
 }
 
 .project-formnest-link-container p {
-	font-size: 2vw;
+	font-size: 1.7vw;
 	color: #000000;
 }
 
 .project-formnest-link {
-	font-size: 2vw;
+	font-size: 1.7vw;
 	color: white;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
-.formnest-logos-wrapper {
+.formnest-logo-wrapper {
 	width: 100%;
 	/* flex */
 	display: flex;
@@ -108,52 +156,22 @@
 	justify-content: space-evenly;
 }
 
-.formnest-logos-container {
+.formnest-logo-container {
 	display: flex;
 	/* flex: 1; */
 	align-items: center;
 	flex-direction: column;
 }
 
-.formnest-logos-circle {
-	width: 190px;
-	height: 190px;
+.formnest-reacteur-link-container {
 	border-radius: 50%;
+	width: 8%;
 	object-fit: cover;
 	object-position: center;
-	background-color: #ffb800;
-	text-decoration: none;
-	padding: 3%;
-	box-sizing: border-box;
-	margin-bottom: 3%;
-	/* flex */
-	display: flex;
 }
 
-.formnest-logos-circle img {
+.formnest-logo {
 	width: 100%;
-}
-
-.text-hidden {
-	font-size: 2vw;
-	color: #323232;
-}
-
-.text-show {
-	font-size: 2vw;
-	color: white;
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 0.5s;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+	border-radius: 50%;
+	margin-bottom: 1%;
 }
