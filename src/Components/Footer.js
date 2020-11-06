@@ -13,7 +13,7 @@ const Footer = () => {
 					className='footer-link'>
 					Marine Le Pennec
 				</a>{' '}
-				| Background by{' '}
+				| Homepage background by{' '}
 				<a
 					href='https://unsplash.com/@dannyhowe'
 					target='_blank'

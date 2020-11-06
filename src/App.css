@@ -11,6 +11,35 @@
 	color: #000000;
 }
 
-li {
-	list-style-type: circle;
+.text-hidden {
+	font-size: 1vw;
+	color: #323232;
+	box-sizing: border-box;
+	padding-top: 1%;
+}
+
+.text-show {
+	font-size: 1vw;
+	color: white;
+	box-sizing: border-box;
+	padding-top: 1%;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+.intersection-separator {
+	width: 90%;
+	height: 0px;
+	border: 0.5px solid #ffb800;
+	margin: 2%;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
