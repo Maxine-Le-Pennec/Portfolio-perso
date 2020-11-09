@@ -1,0 +1,172 @@
+.marvel-project-wrapper {
+	background-color: #323232;
+	padding-top: 1%;
+	/* Flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-wrapper {
+	width: 100%;
+	margin-bottom: 4%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-wrapper h2 {
+	font-size: 4vw;
+	margin-bottom: 1%;
+	color: white;
+}
+
+.header-wrapper div {
+	width: 30%;
+	height: 0px;
+	border: 0.5px solid #ffb800;
+}
+
+.marvel-info-wrapper {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 3%;
+	box-sizing: border-box;
+	/* flex */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+
+.marvel-picture-wrapper {
+	width: 60%;
+	/* flex */
+	display: flex;
+	justify-content: center;
+}
+
+.marvel-despription-wrapper {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4% 10%;
+}
+
+.marvel-despription-wrapper p {
+	font-size: 1.5vw;
+	text-align: left;
+	line-height: 30px;
+	/* color: #ffb800; */
+	color: white;
+}
+.marvel-stacks-wrapper {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.marvel-stacks-wrapper h2 {
+	color: white;
+	font-size: 3vw;
+	box-sizing: border-box;
+	padding-bottom: 1%;
+}
+.stack-separator {
+	width: 30%;
+	height: 0px;
+	border: 0.5px solid #ffb800;
+}
+.marvel-stacks-container {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 7%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.marvel-stack-container {
+	width: 100%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.marvel-stack-container div {
+	width: 100%;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.marvel-stack-container div img {
+	width: 7vw;
+	box-sizing: border-box;
+	padding-bottom: 3%;
+}
+
+.project-marvel-wrapper {
+	width: 100%;
+	padding: 10%;
+	box-sizing: border-box;
+	/* flex */
+	display: flex;
+	justify-content: center;
+}
+
+.project-marvel-link-container {
+	width: 40%;
+	height: 60px;
+	background-color: #ffb800;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.1), 0 10px 10px -5px black;
+	box-sizing: border-box;
+	/* flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-marvel-link-container p {
+	font-size: 1.7vw;
+	color: #000000;
+}
+
+.project-marvel-link {
+	font-size: 1.7vw;
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.marvel-logos-wrapper {
+	width: 100%;
+	/* flex */
+	display: flex;
+	justify-content: space-around;
+}
+
+.marvel-logo-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.marvel-logo {
+	object-fit: cover;
+	object-position: center;
+	/* flex */
+	display: flex;
+}
+
+.marvel-logo img {
+	width: 7vw;
+}

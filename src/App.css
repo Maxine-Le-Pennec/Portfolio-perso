@@ -2,6 +2,7 @@
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
 	min-height: 100vh;
+	min-width: 100vw;
 	display: flex;
 	background-color: #323232;
 }
@@ -12,14 +13,14 @@
 }
 
 .text-hidden {
-	font-size: 1vw;
+	font-size: 1.5vw;
 	color: #323232;
 	box-sizing: border-box;
 	padding-top: 1%;
 }
 
 .text-show {
-	font-size: 1vw;
+	font-size: 1.5vw;
 	color: white;
 	box-sizing: border-box;
 	padding-top: 1%;

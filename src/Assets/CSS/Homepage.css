@@ -13,10 +13,11 @@
 }
 
 h1 {
-	font-size: 4vw;
+	font-size: 65px;
 	line-height: 127px;
 	color: #ffc700;
 }
+
 .presentation-circle-section {
 	display: flex;
 	justify-content: center;
@@ -36,7 +37,7 @@ h1 {
 }
 
 .presentation-circle-container p {
-	font-size: 2vw;
+	font-size: 30px;
 	padding-top: 15%;
 	padding-bottom: 15%;
 }
@@ -64,11 +65,55 @@ h1 {
 }
 
 .navbar-container p {
-	font-size: 1.5vw;
+	font-size: 20px;
 	transition: text-shadow 400ms;
 }
 
 .navbar-container p:hover {
 	/* text-decoration: underline; */
 	text-shadow: 4px 3px 2px white;
+}
+
+/* ------------- RESPONSIVE-------------- */
+
+@media screen and (max-width: 560px) {
+	h1 {
+		font-size: 40px;
+		line-height: 60px;
+		padding-top: 2%;
+	}
+
+	.presentation-circle-container {
+		height: 200px;
+		width: 200px;
+	}
+
+	.presentation-circle-container p {
+		font-size: 20px;
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+
+	.navbar-section {
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar-container {
+		width: 50%;
+		height: 150%;
+		background: rgba(255, 184, 19, 0.9);
+		/*  */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.navbar-container p {
+		font-size: 20px;
+		opacity: 1;
+		color: black;
+		transition: text-shadow 400ms;
+	}
 }
