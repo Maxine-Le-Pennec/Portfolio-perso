@@ -1,7 +1,7 @@
 .home {
 	top: 2%;
 	right: 3%;
-	position: fixed;
+	position: absolute;
 	top: 10px;
 	left: 10px;
 	background-color: transparent;
