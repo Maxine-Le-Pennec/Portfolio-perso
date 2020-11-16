@@ -1,6 +1,6 @@
 .formnest-project-wrapper {
 	background-color: #323232;
-	padding-top: 1%;
+	padding-top: 2%;
 	box-sizing: border-box;
 	width: 100%;
 	/* Flex */
@@ -20,7 +20,7 @@
 }
 
 .header-wrapper h2 {
-	font-size: 4vw;
+	font-size: 2em;
 	margin-bottom: 1%;
 	color: white;
 }
@@ -33,7 +33,7 @@
 
 .formnest-info-wrapper {
 	width: 100%;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 	/* flex */
@@ -57,7 +57,7 @@
 }
 
 .formnest-despription-wrapper p {
-	font-size: 1.5vw;
+	font-size: 1em;
 	text-align: left;
 	line-height: 30px;
 	/* color: #ffb800; */
@@ -74,7 +74,7 @@
 
 .formnest-stacks-wrapper h2 {
 	color: white;
-	font-size: 3vw;
+	font-size: 1.5em;
 	box-sizing: border-box;
 	padding-bottom: 1%;
 }

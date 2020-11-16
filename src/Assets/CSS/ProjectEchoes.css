@@ -1,6 +1,6 @@
 .echoes-project-wrapper {
 	background-color: #323232;
-	padding-top: 1%;
+	padding-top: 2%;
 	/* Flex */
 	display: flex;
 	flex-direction: column;
@@ -18,7 +18,7 @@
 }
 
 .header-wrapper h2 {
-	font-size: 4vw;
+	font-size: 2em;
 	margin-bottom: 1%;
 	color: white;
 }
@@ -40,7 +40,6 @@
 	flex-direction: column;
 	align-items: center;
 }
-
 .echoes-picture-wrapper {
 	width: 60%;
 	/* flex */
@@ -55,7 +54,7 @@
 }
 
 .echoes-despription-wrapper p {
-	font-size: 1.5vw;
+	font-size: 1em;
 	text-align: left;
 	line-height: 30px;
 	/* color: #ffb800; */
@@ -71,7 +70,7 @@
 
 .echoes-stacks-wrapper h2 {
 	color: white;
-	font-size: 3vw;
+	font-size: 1.5em;
 	box-sizing: border-box;
 	padding-bottom: 1%;
 }
