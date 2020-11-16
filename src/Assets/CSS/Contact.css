@@ -1,6 +1,8 @@
 .contact-main-wrapper {
 	width: 100%;
 	background-color: #323232;
+	box-sizing: border-box;
+	padding: 2%;
 	/* flex */
 	display: flex;
 	justify-content: space-around;
@@ -23,7 +25,7 @@
 }
 
 .contact-circle h2 {
-	font-size: 3vw;
+	font-size: 2em;
 	padding: 10%;
 }
 
@@ -34,7 +36,7 @@
 }
 
 .contact-circle p {
-	font-size: 2.3vw;
+	font-size: 1.8em;
 	padding: 10%;
 }
 
@@ -87,5 +89,31 @@
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+/* Media query */
+
+/* Media query */
+@media screen and (max-width: 960px) {
+	.contact-circle {
+		width: 360px;
+		height: 360px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.contact-circle {
+		width: 200px;
+		height: 200px;
+	}
+	.contact-circle p {
+		font-size: 1em;
+	}
+	.contact-main-wrapper {
+		flex-direction: column;
+	}
+	.contact-icons-section {
+		font-size: 12px;
 	}
 }
