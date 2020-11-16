@@ -1,4 +1,5 @@
 .home {
+	font-size: 15px;
 	top: 2%;
 	right: 3%;
 	position: absolute;
@@ -10,4 +11,10 @@
 
 .home:hover {
 	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.home {
+		font-size: 10px;
+	}
 }

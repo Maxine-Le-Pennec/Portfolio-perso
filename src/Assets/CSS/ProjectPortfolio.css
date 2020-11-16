@@ -1,6 +1,7 @@
 .portfolio-project-wrapper {
 	width: 100%;
-
+	box-sizing: border-box;
+	padding: 2%;
 	/* flex */
 	display: flex;
 	flex-direction: column;
@@ -29,7 +30,7 @@
 }
 
 .portfolio-picture-wrapper p {
-	font-size: 1.3vw;
+	font-size: 1em;
 	color: white;
 	box-sizing: border-box;
 	padding-top: 1%;
@@ -42,7 +43,7 @@
 
 .portfolio-info-wrapper p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5vw;
+	font-size: 1em;
 	text-align: left;
 	line-height: 30px;
 	color: white;
@@ -58,7 +59,7 @@
 
 .portfolio-stacks-wrapper h2 {
 	color: white;
-	font-size: 3vw;
+	font-size: 1;
 	box-sizing: border-box;
 	padding-bottom: 1%;
 }

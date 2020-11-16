@@ -6,6 +6,9 @@
 	display: flex;
 	background-color: #323232;
 }
+.carousel-root {
+	width: 90vw;
+}
 
 .Link {
 	text-decoration: none;
@@ -42,5 +45,24 @@
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+/* Media query */
+@media screen and (max-width: 960px) {
+	.text-hidden {
+		font-size: 1em;
+	}
+	.text-show {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.text-hidden {
+		font-size: 0.7em;
+	}
+	.text-show {
+		font-size: 0.7em;
 	}
 }
